@@ -1,2 +1,98 @@
-Hello my friend
-hey
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>CZU Project Markup Language</title>
+		<link rel="stylesheet" href="mystyle.css">
+
+	</head>
+	<body id = "body" style="background-color:FireBrick;text-align:center;">
+		<article>
+		  <header>
+			<h1>A heading here</h1>
+			<p>Posted by Den Terentev</p>
+			<p>Some additional information here</p>
+		  </header>
+		  <p>Lorem Ipsum dolor set amet....</p>
+		</article>
+
+		<img id="smile" style="position:absolute; padding-left: 200px;" src="smile.png">
+
+		<div> Hello </div> <br>
+		<div> <h1>World H1</h1> </div>
+		<div> <h2>World H2</h2> </div>
+		<div> <h3>World H3</h3> </div>
+		<div> <h4>World H4</h4> </div>
+		<div> <h5>World H5</h5> </div>
+		<div> <h6>World H6</h6> </div>
+		<br>
+
+		<div class="row">
+		<div class="column">
+			<img id="workerImg" src="worker.png">
+		</div>
+		<div class="column">
+			<img id="workerImg" src="worker.png">
+		</div>
+
+		<div class="column">
+			<img id="workerImg" src="worker.png">
+		</div>
+		</div>
+
+		<p style="color: red">The 
+		<code>style</code> 
+		attribute can override it, though.
+		</p>
+		<div class="row">
+		<div class="column left" style="background-color:#Faa;">
+		<h2>Column 1</h2>
+		<p>Some text..</p>
+		<img id="worketImg" src="worker.png">
+		</div>
+		<div class="column middle" style="background-color:#bFb;">
+		<h2>Column 2</h2>
+		<p>Some text..</p>
+		<img id="worketImg" src="worker.png">
+		</div>
+		<div class="column right" style="background-color:#ccF;">
+		<h2>Column 3</h2>
+		<p>Some text..</p>
+		<img id="worketImg" src="worker.png">
+		</div>
+		</div>
+
+		<h1 style = "color:green;" > 
+		CZU
+		</h1> 
+
+		<p id = "GFG_UP" style = 
+		"font-size: 20px; font-weight: bold;"> 
+		123
+		</p> 
+
+		<button onclick = "GFG_Fun()"> 
+		click here 
+		</button> 
+
+		<p id = "GFG_DOWN" style = 
+		"color:green; font-size: 20px; font-weight: bold;"> 
+		</p> 
+
+		<input placeholder="Enter some text" name="name"/>
+		<p id="values"></p>
+
+		<h4>Drawing & horizontally flipping a sprite</h4>
+		<canvas id="canvas" width=300 height=100></canvas>
+		<h4>Spritesheet:</h4>
+		<img src='smile.png'>
+		<canvas id="output" width="500" height="500"></canvas>
+	</body>
+
+	<footer id="page-footer">
+		<a href="#ref" itemprop="url">Denis Terentev</a> <br>
+		<a href="#ref" itemprop="url">Denis Terentev</a>
+	</footer>
+
+</html>

@@ -1,0 +1,42 @@
+div.section_title{
+    color: #FF0000;
+    font-size: 22px;
+}
+footer#page-footer{
+    color: darkviolet;
+    font-size: 10px;
+}
+.ref1::after{
+    content: "[1]";
+    color: black;
+    font-style: normal;
+}
+body {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+}
+*{
+    color: white;
+}
+p::first-letter{
+    font-size: 32px;
+    font-family: Verdana;
+    color: #FF4764;
+}
+
+div.top-board{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    background-size: cover;
+    border: azure;
+}
+div.top-board img{
+    width: 10%;
+    height: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
